@@ -1,0 +1,44 @@
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  top: 0;
+  left: 0;
+  opacity: .8;
+  z-index: 100;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.edit-profile-form-container {
+  width: 25em;
+  z-index: 101;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 35em;
+  form {
+    position: fixed;
+    label {
+      color: #000;
+      margin-bottom: .5em;
+      span {
+        display: block;
+        margin-bottom: .5em;
+      }
+    }
+    .input {
+      background: transparent;
+      color: #ffffff;
+    }
+    .select {
+      width: 21em !important;
+    }
+  }
+}

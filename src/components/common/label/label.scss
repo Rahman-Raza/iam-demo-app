@@ -1,0 +1,50 @@
+.labels {
+  padding: .2em 1em;
+  color: #ffffff;
+  border-radius: .3em;
+  font-size: .7em;
+  text-transform: uppercase;
+  &.admin, &.primary {
+    color: #d400f1;
+    font-weight: bold;
+    border: 1px solid #f2d9f2;
+    background-color: #f2d9f2;
+  }
+  &.employee, &.other {
+    color: #ff9f64;
+    font-weight: bold;
+    border: 1px solid #ffe8d9;
+    background-color: #ffe8d9;
+  }
+  &.accent {
+    color: #e7e3fa;
+    font-weight: bold;
+    border: 1px solid #803af9;
+    background-color: #803af9;
+  }
+  &.information {
+    color: #3b5ff5;
+    font-weight: bold;
+    border: 1px solid #d4e7fb;
+    background-color: #d4e7fb;
+  }
+  &.error {
+    color: #ff3374;
+    font-weight: bold;
+    border: 1px solid #fee1e7;
+    background-color: #fee1e7;
+  }
+  &.succeed {
+    color: #e7e3fa;
+    font-weight: bold;
+    border: 1px solid #d0f6eb;
+    background-color: #d0f6eb;
+  }
+  &.warning {
+    
+    color: #fed956;
+    font-weight: bold;
+    border: 1px solid #ffe8d9;
+    background-color: #ffe8d9;
+  }
+}

@@ -1,0 +1,48 @@
+.navigation {
+  .nav-logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    margin: auto;
+    z-index: 102;
+    background: url(./assets/logo.png) no-repeat;
+  }
+  ul.navitation-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    background: #888bfa;
+    li {
+      display: inline-block;
+      a {
+        padding: 1.5em;
+        display: block;
+        text-decoration: none;
+        color: #000000;
+        &:hover {
+          background: #c1c3fa;
+        }
+        &.active {
+          color: #ffffff;
+          background: #adaff9;
+        }
+      }
+    }
+  }
+  .logout {
+    text-decoration: none;
+    z-index: 1000;
+    // color: #ec0404;
+    position: fixed;
+    right: 45px;
+    top: 24px;
+  }
+}

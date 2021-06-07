@@ -1,0 +1,46 @@
+table.list {
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 1em;
+  z-index: 99;
+  thead {
+    tr {
+      th {
+        text-align: left;
+        .input {
+          width: 16em;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:hover {
+        box-shadow: 0 0 1em #cccccc;
+        background-color: #f0f1fd;
+      }
+      td {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 1em;
+        &:first-child {
+          padding-left: .5em;
+          padding-right: 0;
+        }
+        &.actions {
+          text-align: right;
+          button {
+            padding: 0;
+            margin-right: .2em;
+            &.btn-edit {
+              margin-right: .5em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
